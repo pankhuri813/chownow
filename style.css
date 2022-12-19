@@ -1,0 +1,43 @@
+
+*{
+    padding: 0;
+    margin: 0;
+   }
+
+body{
+    background-color: #D0B8A8;
+}
+
+#credit{
+    margin: 0px 0px 0px 0px;
+}
+#strt{
+    top: 0px;
+    width: 20vh;
+    border-radius: 5px;
+    border: none;
+    height: 7vh;
+    background-color: rgb(2, 20, 10);
+    font-size: 2rem;
+    color: rgb(211, 235, 226);
+}
+
+
+#strt:hover {
+    background-color: rgba(188, 198, 202, 0.248);
+    transform: translateX(2px);
+}
+
+#strt-button:active {
+    background-color: rgb(34, 31, 33);
+    transform: translateX(1px);
+}
+
+#logopogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 215px 0px 0px 0px;
+   
+}
